@@ -9,5 +9,6 @@ public class Windows98Machine {
     public Windows98Machine(Keyboard keyboard, Monitor monitor) {
         this.keyboard = keyboard;
         this.monitor = monitor;
+
     }
 }
