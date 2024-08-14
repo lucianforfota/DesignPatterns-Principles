@@ -1,12 +1,15 @@
-package designpatterns.solidempty.dip.demo.car.dirty;
+package solidempty.dip.demo.car.dirty;
 
 public class Car {
 
-    private Engine engine;
-    public Car(Engine e) {
-        engine = e;
+    private DieselEngine dieselEngine;
+
+    public Car(DieselEngine e) {
+        dieselEngine = e;
     }
+
     public void start() {
-        engine.start();
+        dieselEngine.start();
+        //blblblblb alte chestii
     }
 }

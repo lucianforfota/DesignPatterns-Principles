@@ -1,4 +1,4 @@
-package designpatterns.solidempty.dip.demo.computer.dirty;
+package solidempty.dip.demo.computer.dirty;
 
 public class Windows98Machine {
     private final StandardKeyboard keyboard;

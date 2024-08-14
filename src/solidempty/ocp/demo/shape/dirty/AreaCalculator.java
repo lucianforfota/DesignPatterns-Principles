@@ -1,4 +1,4 @@
-package designpatterns.solidempty.ocp.demo.shape.dirty;
+package solidempty.ocp.demo.shape.dirty;
 
 import java.util.List;
 

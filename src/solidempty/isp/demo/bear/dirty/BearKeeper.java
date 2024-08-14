@@ -1,4 +1,4 @@
-package designpatterns.solidempty.isp.demo.bear.dirty;
+package solidempty.isp.demo.bear.dirty;
 
 public interface BearKeeper {
     void washTheBear();

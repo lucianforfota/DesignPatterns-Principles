@@ -1,4 +1,4 @@
-package designpatterns.solidempty.dip.exercise.encodingmodule.dirty;
+package solidempty.dip.exercise.encodingmodule.dirty;
 
 import java.io.IOException;
 

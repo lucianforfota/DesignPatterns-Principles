@@ -1,4 +1,4 @@
-package designpatterns.solidempty.lsp.exercise.bankaccount.dirty;
+package solidempty.lsp.exercise.bankaccount.dirty;
 
 import java.math.BigDecimal;
 

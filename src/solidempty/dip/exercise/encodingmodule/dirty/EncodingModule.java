@@ -1,4 +1,4 @@
-package designpatterns.solidempty.dip.exercise.encodingmodule.dirty;
+package solidempty.dip.exercise.encodingmodule.dirty;
 
 import java.io.*;
 import java.util.Base64;
@@ -11,13 +11,12 @@ public class EncodingModule {
         BufferedWriter writer = null;
         try {
 
-            reader = new BufferedReader(
-                    new FileReader("src/main/java/solid/dip/exercise/encodingmodule/dirty/fileToBeEncrypted.txt"));
+            reader = new BufferedReader(new FileReader("src/main/java/solid/dip/exercise/encodingmodule/dirty/fileToBeEncrypted.txt"));
             writer = new BufferedWriter(
                     new FileWriter("fileEncrypted.txt"));
             String aLine;
-            while ((aLine = reader.readLine()) != null) {
-                String encodedLine = Base64.getEncoder().encodeToString(aLine.getBytes());
+            while (reader.readLine() != null) {
+                String encodedLine = Base64.getEncoder().encodeToString(reader.readLine().getBytes());
                 writer.append(encodedLine);
             }
         } finally {

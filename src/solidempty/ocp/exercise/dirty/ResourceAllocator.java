@@ -1,4 +1,4 @@
-package designpatterns.solidempty.ocp.exercise.dirty;
+package solidempty.ocp.exercise.dirty;
 
 public class ResourceAllocator {
     private static final int INVALID_RESOURCE_ID = -1;
