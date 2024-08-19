@@ -1,4 +1,4 @@
-package designpatterns.solidempty.videostorekata.dirty;
+package solidempty.videostorekata.dirty;
 
 import java.util.ArrayList;
 import java.util.List;

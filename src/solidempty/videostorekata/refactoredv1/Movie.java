@@ -1,4 +1,4 @@
-package solidempty.videostorekata.dirty;
+package solidempty.videostorekata.refactoredv1;
 
 public class Movie {
 

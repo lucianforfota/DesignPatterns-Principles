@@ -4,6 +4,8 @@ import java.util.List;
 
 public class AreaCalculator {
 
+
+
     public void calculateArea(List<Shape> shapes)
     {
         double area = 0;

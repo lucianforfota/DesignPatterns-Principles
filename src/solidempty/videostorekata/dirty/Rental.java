@@ -1,4 +1,4 @@
-package designpatterns.solidempty.videostorekata.dirty;
+package solidempty.videostorekata.dirty;
 
 public class Rental {
 

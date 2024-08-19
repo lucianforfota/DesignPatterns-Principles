@@ -14,7 +14,7 @@ public class EncodingModule {
             reader = new BufferedReader(new FileReader("src/main/java/solid/dip/exercise/encodingmodule/dirty/fileToBeEncrypted.txt"));
             writer = new BufferedWriter(
                     new FileWriter("fileEncrypted.txt"));
-            String aLine;
+
             while (reader.readLine() != null) {
                 String encodedLine = Base64.getEncoder().encodeToString(reader.readLine().getBytes());
                 writer.append(encodedLine);
@@ -35,14 +35,10 @@ public class EncodingModule {
         try {
             reader = new BufferedReader(
                     new FileReader("src/main/java/solid/dip/exercise/encodingmodule/dirty/fileToBeEncrypted.txt"));
-
-            String aLine;
-            while ((aLine = reader.readLine()) != null) {
-
-                inputString1.append(aLine);
+            while (reader.readLine() != null) {
+                inputString1.append(reader.readLine());
             }
         } finally {
-
             if (reader != null) {
                 reader.close();
             }
